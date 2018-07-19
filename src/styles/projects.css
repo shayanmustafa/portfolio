@@ -1,0 +1,89 @@
+.menu-project ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.menu-project {
+    margin-top: 50px;
+}
+
+.project-wrapper {
+    display: flex;
+    overflow: hidden;
+}
+
+.project-header {
+    flex: 1;
+    background-color: black;
+    height: 100vh;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.project-content {
+    flex: 1;
+    background-color: #837D3C;
+    height: 100vh;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+
+.project1 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: red;
+    height: 50vh;
+}
+
+.project2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: blue;
+    height: 50vh;
+}
+
+/*.project3 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: yellow;
+    height: 50vh;
+}
+
+.project4 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: green;
+}*/
+
+/*.image1 {
+    background-color: red;
+}
+
+.para1 {
+    background-color: green;
+}*/
+
+.project-header h1 {
+    color: white;
+}
+
+.project-content p {
+    color: black;
+}
+
+/*.image1 {
+    border: 5px solid black;
+}*/
